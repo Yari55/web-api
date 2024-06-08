@@ -52,7 +52,7 @@ def api():
         start_xvfb_display()
 
     api.launch(
-        server_name="0.0.0.0" if cmd_opts.listen else "127.0.0.1",
+        server_name="0.0.0.0" if cmd_opts.listen else "0.0.0.0",
         port=cmd_opts.port if cmd_opts.port else 5000,
     )
 
