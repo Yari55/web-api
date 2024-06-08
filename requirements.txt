@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pyjwt
+pytz
+dacite
+playwright
+httpx
+DrissionPage
+xvfbwrapper==0.2.9; platform_system != "Windows"
